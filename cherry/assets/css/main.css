@@ -35,7 +35,7 @@ li {
   left: 0;
   right: 0;
   background: transparent;
-  padding: 92px 0 22px;
+  padding: 40px 0 20px;
   z-index: 10;
 }
 
@@ -66,7 +66,7 @@ li {
 
 .main-1 .anchor {
   position: absolute;
-  bottom: -49px;
+  bottom: -40px;
   left: calc(50% - 63px);
 }
 
@@ -121,8 +121,8 @@ li {
 }
 
 .main-2 {
-  margin-top: 155px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .main-2 .container {
@@ -187,7 +187,12 @@ li {
 .footer__item {
   display: block;
   width: max-content;
+  max-width: 330px;
+}
 
+.footer__item img{
+  width: 100%;
+  height: auto;
 }
 
 .swiper {
