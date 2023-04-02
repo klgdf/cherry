@@ -16,7 +16,10 @@ body {
   font-size: 21px;
   line-height: 2.05;
   color: #fff;
-  background: url(../img/bg.png);
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul,
@@ -33,6 +36,7 @@ li {
   right: 0;
   background: transparent;
   padding: 92px 0 22px;
+  z-index: 10;
 }
 
 .header-logo {
@@ -52,10 +56,18 @@ li {
 }
 
 .main-1 {
+  position: relative;
   background: url(../img/main.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+
+.main-1 .anchor {
+  position: absolute;
+  bottom: -49px;
+  left: calc(50% - 63px);
 }
 
 .main-1__title {
@@ -151,7 +163,7 @@ li {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   padding: 0 30px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -169,7 +181,7 @@ li {
 .footer__row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer__item {
