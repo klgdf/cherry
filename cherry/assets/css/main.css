@@ -299,7 +299,6 @@ li {
 }
 
 @media(max-width: 1440px) {
-
   .main-1 .container,
   .main-2 .container {
     flex-direction: column;
